@@ -65,12 +65,14 @@ Array(200).fill().forEach(addStar);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load("ardasen.jpg");
+const spaceTexture = new THREE.TextureLoader().load("./public/ardasen.jpg");
 scene.background = spaceTexture;
 
 // Avatar
 
-const shermaineTexture = new THREE.TextureLoader().load("shermaine.png");
+const shermaineTexture = new THREE.TextureLoader().load(
+  "./public/shermaine.png"
+);
 
 const shermaine = new THREE.Mesh(
   new THREE.BoxGeometry(3, 3, 3),
@@ -81,8 +83,8 @@ scene.add(shermaine);
 
 // Moon
 
-const moonTexture = new THREE.TextureLoader().load("earth2.png");
-const normalTexture = new THREE.TextureLoader().load("normal.jpg");
+const moonTexture = new THREE.TextureLoader().load("./public/earth2.png");
+const normalTexture = new THREE.TextureLoader().load("./public/normal.jpg");
 
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32, 32),
