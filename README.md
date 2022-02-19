@@ -3,7 +3,7 @@ https://codingwithmagic.netlify.app/
 
 # Scrollable 3D Animation with Three.js
 
-- Watch the [full tutorial](https://youtu.be/Q7AOvWpIVHU) on FireShip YouTube
+- Watch the [full tutorial](https://youtu.be/Q7AOvWpIVHU) on Fireship YouTube
 
 ## Usage
 
